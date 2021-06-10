@@ -58,13 +58,9 @@
         background: black;
         position: absolute;
         top: 50%;
-      }
-
-      .second-hand,
-      .min-hand,
-      .hour-hand {
         transform-origin: right center;
-        transition: transform 0.2s ease-in-out;
+        transition: all 0.1s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
       }
     </style>
 

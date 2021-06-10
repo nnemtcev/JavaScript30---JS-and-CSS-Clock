@@ -5,14 +5,8 @@ function updateSecondHandPosition() {
   const currentNumberOfSecondsToDegrees = currentNumberOfSeconds * 6;
 
   secondHand.style = `transform: rotate(${
-    91 + currentNumberOfSecondsToDegrees
+    90 + currentNumberOfSecondsToDegrees
   }deg)`;
-
-  setTimeout(function () {
-    secondHand.style = `transform: rotate(${
-      90 + currentNumberOfSecondsToDegrees
-    }deg)`;
-  }, 300);
 }
 
 // Helper function to update the position of the minute hand
